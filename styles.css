@@ -1,0 +1,17 @@
+.container {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+
+.box {
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  justify-content: space-evenly;
+}
+.box:hover {
+  background-color: orange;
+  transition: 0.5s;
+}
